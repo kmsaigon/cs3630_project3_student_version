@@ -1,0 +1,12 @@
+# CS 3630 Project 3 (Fall 2026)
+# Install into the course conda env:  conda activate cs3630_p3 && python -m pip install -r requirements.txt
+# Note: gtsam wheels exist for Linux and macOS. On Windows, use WSL (same as Project 2).
+numpy>=1.24,<3
+gtsam==4.3a0
+gtbook
+graphviz
+pandas
+plotly>=5
+nbformat>=4.2
+ipykernel>=6,<9
+pytest>=7,<9
